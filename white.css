@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap');
+h1{
+       font-family: 'Poppins', sans-serif;
+       font-weight: 900;
+       color: dark;
+}
+h2{
+       font-family: 'Poppins', sans-serif;
+       font-weight: 600;
+       color: dark;
+}
+p{
+       font-family: 'Poppins', sans-serif;
+       font-weight: 400;
+       color: dark;
+}
+.centercss {text-align: center;}
+#global{
+       position: absolute; /* postulat de départ */
+       top: 50%; left: 50%; /* à 50%/50% du parent référent */
+       transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+html, body{
+       margin: 0;
+       padding: 0;
+       background: #FDFDFD;
+}
+.contenue{
+       width: 100%;
+       height: auto;
+       margin: auto;
+       max-width: 1200px;
+       padding: 40px 0 40px 0;
+}
+.pyw{
+       width: 100%;
+       height: 100vh;
+       background: url(./img/white.jpg) no-repeat 50% 50%;
+       background-size: cover;
+       position: relative;
+}
+.pyw .pythonlogo{
+       width: 30%;
+       position: absolute;
+       top: 80%;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin: auto;
+
+}
+.pyw .pythonlogo:hover{
+       width: 30%;
+       position: absolute;
+       top: 80%;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin: auto;
+       transform: rotate(180deg);
+}
+.buttonview{
+       font-family: 'Poppins', sans-serif;
+       font-weight: 600;
+       background-color: white;
+       border-color: yellow;
+       color: #000000;
+       border-width: 5px;
+}
+.txtbt1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #000;
+}
+.buttonview1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000;
+}

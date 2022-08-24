@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mes programmes</title>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="md5.js"></script>
+	<script>
+	function getValue() {
+    // Sélectionner l'élément input et récupérer sa valeur
+    var input = document.getElementById("in").value;
+    // Afficher la valeur
+    email=hex_md5(input);
+    result= "https://www.gravatar.com/avatar/" + email
+    document.getElementById("gravatar").src=result;
+
+	}
+	</script>
+	<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3WGM05P1D"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Q3WGM05P1D');
+    </script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+    <script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+</head>
+<body>
+	<div class="pyw">
+		<a href="https://www.python.org/downloads/">
+			<img src="./img/python.png" alt="python" class="pythonlogo">	
+		</a>
+	</div>
+	
+
+	<div class="contenue">
+		
+		<h1>Mes Programmes :</h1>
+		<div>
+			<h2>En Python :</h2>
+			<div class="centercss	">
+				<div>
+					<p>Trouver le nombre :</p>
+					<input class="buttonview" type="button" value="Afficher le code" onclick="window.location='./python/math.py';">
+				</div>
+					<br>
+					<br>
+				<div>
+					<p>Cercle avec turtle</p>
+					<input class="buttonview" type="button" value="Afficher le code" onclick="window.location='./python/circle.py';">
+				</div>
+				<br>
+				<br>s
+				<div>
+					<input type="button" class="buttonview" value="Afficher Plus" onclick="window.location='./python.html';">
+				</div>
+			</div>
+		</div>
+		<div>
+			<h2>En Bat :</h2>
+		</div>
+		<br>
+		<br>
+		<div class="centercss">
+			<h2>Téléchager l'émuateur Numworks</h2>
+			<br>
+			<br>
+				<input type="button" class="buttonview" value="Télécharger" onclick="window.location='';">
+		</div>
+		<br>
+		<br>
+
+		<div class="centercss">
+			<h2> Obtenir Votre Gravatar</h2>
+			<input class="buttonview" type="button" value="Obtenir" onclick="window.location='./gravatar.html';">
+		</div>
+		<img id="gravatar" src="jsp.png">
+		<br>
+		<br>
+		<br>
+		<br>
+		<input class="buttonview" type="button" value="Mode Claire" onclick="window.location='./white.html';">
+	</div>
+<script>
+	$(window).scroll(function() {
+
+	var scrollPos = $(this).scrollTop();
+	$('.pyw .pythonlogo').css({
+		'width': 300 - scrollPos/4
+	})
+
+})
+</script>
+</html>
